@@ -1,0 +1,12 @@
+{
+  "name": "baconedxd-portfolio",
+  "private": true,
+  "type": "module",
+  "description": "BaconedXD Minecraft staff portfolio with a live editing dashboard (Netlify Functions + Netlify Blobs).",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.4"
+  }
+}

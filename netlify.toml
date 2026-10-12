@@ -1,0 +1,15 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+# Keep the dashboard out of search engines and never cached
+[[headers]]
+  for = "/dashboard*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    Cache-Control = "no-store"
+
+[[headers]]
+  for = "/content.json"
+  [headers.values]
+    Cache-Control = "no-cache"
