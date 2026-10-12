@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "title": "BaconedXD — Minecraft Staff Portfolio",
+    "description": "Staff Manager and Moderator with experience across 5 Minecraft communities and 14,800+ members."
+  },
+  "theme": {
+    "sky": "#c6f6ff",
+    "shallow": "#35d6ea",
+    "lagoon": "#139fc6",
+    "deep": "#0a6694",
+    "abyss": "#062c4f",
+    "ink": "#04182a",
+    "accent": "#55ffff",
+    "accent2": "#00aaaa",
+    "text": "#ffffff",
+    "muted": "#b5e8f0",
+    "gold": "#ffff55",
+    "current": "#55ff55",
+    "past": "#ff7a7a",
+    "attr": "#8fb8ff",
+    "headingFont": "Monocraft",
+    "bodyFont": "Monocraft",
+    "bodySize": 17,
+    "texture": true,
+    "waves": true,
+    "bubbles": true,
+    "toasts": true,
+    "depthReadout": true
+  },
+  "profile": {
+    "name": "BaconedXD",
+    "minecraftUsername": "BaconedXD",
+    "skinUrl": "https://textures.minecraft.net/texture/e1af38f1f8789d5d9193816efaea44eea5cae9cae7c3b2fe1b70a10327eac133",
+    "skinModel": "classic",
+    "avatarUrl": "",
+    "tagline": "I run staff teams and keep Minecraft communities safe, friendly and active.",
+    "splash": "Ban appeals reviewed fairly!",
+    "status": "BaconedXD is open to new staff roles",
+    "showStatus": true,
+    "discordUsername": "bacono11",
+    "discordId": "936948636129046579",
+    "primaryButton": "See my experience",
+    "secondaryButton": "Message on Discord"
+  },
+  "about": "I'm **BaconedXD**, a Minecraft staff member with hands-on experience across vanilla and SMP communities ranging from 200 to 8,400+ members.\n\nRight now I'm the **Staff Manager at BlazeVanilla** and a **Moderator at BreezeVanilla**. Before that I led media teams at SpaceMC and CloverMC, helped manage CloverMC, and moderated at DomikonSMP — so I've done staff work from the front line all the way up to management.",
+  "sections": [
+    {
+      "id": "hero",
+      "visible": true,
+      "navLabel": "Surface",
+      "icon": "player"
+    },
+    {
+      "id": "stats",
+      "visible": true
+    },
+    {
+      "id": "about",
+      "visible": true,
+      "title": "About me",
+      "subtitle": "A quick hello from the chat.",
+      "navLabel": "About",
+      "icon": "book"
+    },
+    {
+      "id": "categories",
+      "visible": true
+    },
+    {
+      "id": "skills",
+      "visible": true,
+      "title": "Skills",
+      "subtitle": "What I bring to a staff team, levelled like enchantments.",
+      "navLabel": "Skills",
+      "icon": "ebook"
+    },
+    {
+      "id": "contact",
+      "visible": true,
+      "title": "Direct connection",
+      "subtitle": "",
+      "navLabel": "Contact",
+      "icon": "chat"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Communities",
+      "value": "{servers}",
+      "icon": "gem"
+    },
+    {
+      "label": "Members reached",
+      "value": "{members}",
+      "icon": "player"
+    },
+    {
+      "label": "Current roles",
+      "value": "{current}",
+      "icon": "star"
+    },
+    {
+      "label": "Management roles",
+      "value": "{roles:management}",
+      "icon": "crown"
+    }
+  ],
+  "categories": [
+    {
+      "id": "management",
+      "title": "Management",
+      "navLabel": "Management",
+      "subtitle": "Leading staff teams, running departments and making the calls.",
+      "icon": "crown"
+    },
+    {
+      "id": "staffing",
+      "title": "Staffing",
+      "navLabel": "Staffing",
+      "subtitle": "Front-line moderation, player support and keeping communities safe.",
+      "icon": "shield"
+    }
+  ],
+  "experience": [
+    {
+      "id": "blazevanilla",
+      "server": "BlazeVanilla",
+      "address": "Blazevanilla.xyz",
+      "role": "Staff Manager",
+      "members": 200,
+      "membersPlus": true,
+      "category": "management",
+      "status": "current",
+      "note": "",
+      "period": "",
+      "description": "Oversee the staff team — recruitment, training, and keeping moderation consistent and fair.",
+      "iconUrl": ""
+    },
+    {
+      "id": "breezevanilla",
+      "server": "BreezeVanilla",
+      "address": "breezevanilla.net / eu",
+      "role": "Moderator",
+      "members": 8400,
+      "membersPlus": true,
+      "category": "staffing",
+      "status": "current",
+      "note": "",
+      "period": "",
+      "description": "Moderate chat and gameplay, and handle player reports and support tickets.",
+      "iconUrl": ""
+    },
+    {
+      "id": "spacemc",
+      "server": "SpaceMC",
+      "address": "play.spacemc.lol",
+      "role": "Media Manager",
+      "members": 5000,
+      "membersPlus": true,
+      "category": "management",
+      "status": "past",
+      "note": "Resigned",
+      "period": "",
+      "description": "Managed the media team and the server's content creator program.",
+      "iconUrl": ""
+    },
+    {
+      "id": "clovermc",
+      "server": "CloverMC",
+      "address": "clovermc.net",
+      "role": "Manager / Media Manager (MM)",
+      "members": 600,
+      "membersPlus": false,
+      "category": "management",
+      "status": "past",
+      "note": "Resigned",
+      "period": "",
+      "description": "Helped run the server as a Manager while also leading the media program.",
+      "iconUrl": ""
+    },
+    {
+      "id": "domikonsmp",
+      "server": "DomikonSMP",
+      "address": "domikonsmp.net",
+      "role": "Moderator / Media Manager Assistant (MMA)",
+      "members": 600,
+      "membersPlus": false,
+      "category": "staffing",
+      "status": "past",
+      "note": "Resigned",
+      "period": "",
+      "description": "Moderated the community and assisted the Media Manager with creators.",
+      "iconUrl": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Staff Management",
+      "desc": "Recruiting, training and leading staff teams.",
+      "icon": "crown",
+      "level": 5
+    },
+    {
+      "name": "Moderation",
+      "desc": "Fair, consistent punishments and rule enforcement.",
+      "icon": "hammer",
+      "level": 5
+    },
+    {
+      "name": "Player Support",
+      "desc": "Handling tickets, reports and appeals.",
+      "icon": "chat",
+      "level": 4
+    },
+    {
+      "name": "Media & Creators",
+      "desc": "Running media programs and creator partnerships.",
+      "icon": "camera",
+      "level": 4
+    },
+    {
+      "name": "Community",
+      "desc": "Keeping communities active, friendly and safe.",
+      "icon": "heart",
+      "level": 4
+    },
+    {
+      "name": "Organisation",
+      "desc": "Clear processes, staff guides and documentation.",
+      "icon": "book",
+      "level": 3
+    }
+  ],
+  "contact": {
+    "text": "Looking for a dependable Staff Manager or Moderator for your server? Send me a message on Discord and let's talk.",
+    "links": [
+      {
+        "label": "Discord profile",
+        "url": "https://discord.com/users/936948636129046579"
+      }
+    ]
+  },
+  "footer": "© 2026 BaconedXD · Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft."
+}

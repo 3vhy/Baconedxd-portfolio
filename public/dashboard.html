@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Dashboard · BaconedXD Portfolio</title>
+  <meta name="theme-color" content="#04182a">
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/dashboard.css">
+</head>
+<body class="dash">
+  <p class="loader" id="booting">Loading dashboard…</p>
+
+  <!-- Login -->
+  <div id="login" class="login" hidden>
+    <form class="panel login-card" id="login-form">
+      <span class="slot">%ICON%</span>
+      <h1>Dashboard</h1>
+      <p>Enter your admin password to edit the portfolio.</p>
+      <label class="fld">
+        <span>Password</span>
+        <input type="password" id="pw" autocomplete="current-password" required>
+      </label>
+      <button class="mc-btn" type="submit" id="login-btn">Log in</button>
+      <p class="err" id="login-err" role="alert"></p>
+      <a class="back" href="./">← Back to portfolio</a>
+    </form>
+  </div>
+
+  <!-- Dashboard -->
+  <div id="dash" hidden>
+    <header class="dash-top">
+      <div class="dash-brand">
+        <span>Dashboard</span>
+        <span class="pill" id="mode-pill">Live</span>
+      </div>
+      <div class="dash-actions">
+        <span class="save-state" id="save-state">All changes saved</span>
+        <button class="chip-btn only-narrow" type="button" id="preview-open">Preview</button>
+        <a class="chip-btn hide-xs" href="./" target="_blank" rel="noopener">View site</a>
+        <button class="chip-btn" type="button" id="logout">Log out</button>
+        <button class="mc-btn small" type="button" id="save" disabled>Save</button>
+      </div>
+    </header>
+    <div class="banner" id="offline-banner" hidden></div>
+    <div class="dash-body">
+      <aside class="editor">
+        <nav class="tabs" id="tabs" role="tablist"></nav>
+        <div class="tab-panel" id="panel"></div>
+      </aside>
+      <section class="preview" id="preview" aria-label="Live preview">
+        <div class="preview-bar">
+          <span>Live preview</span>
+          <div class="seg">
+            <button type="button" data-device="desktop" class="on">Desktop</button>
+            <button type="button" data-device="mobile">Mobile</button>
+          </div>
+          <button class="chip-btn only-narrow" type="button" id="preview-close">Close</button>
+        </div>
+        <div class="frame-wrap" id="frame-wrap">
+          <iframe id="frame" src="index.html?preview=1" title="Live preview of the portfolio"></iframe>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/icons.js"></script>
+  <script src="assets/dashboard.js"></script>
+</body>
+</html>
